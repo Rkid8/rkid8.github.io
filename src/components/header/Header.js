@@ -71,22 +71,22 @@ function Header() {
           )}
           {viewIntro && (
             <li>
-              <a href="#intro">{isEn ? "Work Experiences" : "进组须知"}</a>
+              <a href="#intro">{isEn ? "Note" : "进组须知"}</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#scholars">{isEn ? "Open Source" : "学术成果"}</a>
+              <a href="#scholars">{isEn ? "Achievements" : "学术成果"}</a>
             </li>
           )}
           {viewDirection && (
             <li>
-              <a href="#direction">{isEn ? "Direction" : "研究方向"}</a>
+              <a href="#direction">{isEn ? "Work" : "研究方向"}</a>
             </li>
           )}
           {viewPlog && (
             <li>
-              <a href="#plog">{isEn ? "Blogs" : "组内活动"}</a>
+              <a href="#plog">{isEn ? "Activities" : "组内活动"}</a>
             </li>
           )}
           <li>

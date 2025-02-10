@@ -70,6 +70,11 @@
 .dark-mode .intro-main-div {
   background-color: $darkBackground;
   color: $textColorDark;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.5);
+  }
 }
 
 .dark-mode .intro-heading,

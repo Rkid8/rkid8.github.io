@@ -41,8 +41,8 @@ const greeting = {
 
 const greeting_en = {
   main: "Homepage",
-  username: "Jinkai Zhen",
-  title: "Jinkai Zhen 郑锦凯",
+  username: "Jinkai Zheng",
+  title: "Jinkai Zheng 郑锦凯",
   subTitle:
     "Dr. Zheng Jinkai, Ph.D., is an associate researcher, mainly engaged in the research of artificial intelligence, computer vision, gait recognition, multimodal networks and other areas of technical research and the implementation of the combination of “industry, academia and research” applications. He worked as a research algorithm engineer in Jingdong Exploration Research Institute and was responsible for the research and development of intelligent human body analysis algorithms. He maintains good cooperative relationships with many famous universities and enterprises at home and abroad, and can recommend excellent students to go to Jingdong Research Institute, Lenovo Research Institute, Huawei and other enterprises for internship (joint training) or employment. He has published many high-level papers as the first author, including CVPR, ACM MM, etc., which are the top international academic conferences in the field of computer vision and multimedia, with more than 680 Google citations, and has long been serving as the reviewer of important journals (TIP, TMM, TCSVT, etc.) and conferences (CVPR, ICCV, ACM MM, etc.) in the field, and has participated in many key R&D programs of the Ministry of Science and Technology of the People's Republic of China. He has participated in a number of national key R&D programs of the Ministry of Science and Technology (MOST)-National Key R&D Programs, etc. He has been authorized 4 invention patents, and his related scientific research achievements have been reported by China News Network, China Science News, and Zhejiang Provincial Department of Education.",
   subtext:
