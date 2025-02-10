@@ -1,0 +1,86 @@
+@import "../../_globalColor";
+
+// .main {
+//   width: 90%;
+//   margin: 0 auto;
+//   margin-top: 2rem;
+//   padding: 20px;
+//   background-color: $lightBackground1;
+//   border-radius: 10px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+// }
+
+.intro-main-div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 100px;
+  background-color: $lightBackground1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px $lightBoxShadowDarker;
+  }
+}
+
+.intro-header {
+  @extend .common-header ;
+}
+
+.intro-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: $titleColor;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: $textColor;
+}
+
+.intro-text h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: $titleColor;
+}
+
+.intro-text ol {
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text ol li {
+  margin-bottom: 0.8rem;
+}
+
+.intro-text a {
+  //   color: $linkColor;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+
+  //   &:hover {
+  //     color: $linkHoverColor;
+  //   }
+}
+
+.dark-mode .intro-main-div {
+  background-color: $darkBackground;
+  color: $textColorDark;
+}
+
+.dark-mode .intro-heading,
+.dark-mode .intro-text h2 {
+  color: $textColorDark;
+}
+
+.dark-mode .intro-text a {
+  color: $textColorDark;
+
+  //   &:hover {
+  //     color: $linkHoverColorDark;
+  //   }
+}
